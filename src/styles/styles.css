@@ -1,0 +1,39 @@
+@import url(./global.css);
+
+html{
+    font-size: 16px;
+}
+
+header{
+    padding: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16.19rem;
+}
+
+header > .linkHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+header > .buttonHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+header > .buttonHeader > .linkButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+header > .buttonHeader > button{
+    padding: 1rem 2rem;
+}
+
