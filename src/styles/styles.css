@@ -35,5 +35,44 @@ header > .buttonHeader > .linkButton{
 
 header > .buttonHeader > button{
     padding: 1rem 2rem;
+    cursor: pointer;
 }
+
+main{
+    padding: 6.31rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main > .healthyFood{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6.25rem;
+    gap: 7.75rem;
+}
+
+main > .healthyFood > .healthyContent{
+    width: 35.19rem;
+    margin: 3.19rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+main > .healthyFood > .healthyContent > p{
+    width: 27rem;
+}
+
+main > .healthyFood > .healthyContent > .healthyButton{
+    display: flex;
+    gap: 1.5rem;
+}
+
+main > .healthyFood > .healthyContent > .healthyButton > button{
+    padding: 1rem 2rem;
+    cursor: pointer;
+}
+
 

@@ -8,6 +8,11 @@
     font-family: 'Gilroy', sans-serif;
 }
 
+body{
+    font-size: 18px;
+    font-size: 500;
+}
+
 :root{
     --primary: #00A000;
     --grey: #999999;
@@ -19,6 +24,25 @@ a, p{
     color: var(--grey)
 }
 
+p{
+    font-size: 18px;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+h3{
+    font-size: 28px;
+    font-weight: 700;
+}
+
 .colorP{
     color: var(--primary)
 }
@@ -26,11 +50,16 @@ a, p{
 .btn1{
     color: var(--primary);
     border: 1px solid var(--primary);
+    font-size: 18px;
+    font-weight: 600;
     border-radius: 10px;
 }
 
 .btn2{
     color: var(--white);
     background-color: var(--primary);
+    font-size: 18px;
+    font-weight: 600;
     border-radius: 10px;
 }
+
